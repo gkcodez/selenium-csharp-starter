@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/ReportNG" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\VisualStudioProjects\\ReportNG\\ReportNG\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\VisualStudioProjects\\ReportNG\\ReportNG\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="AUTOMATIONConnectionString-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=AUTOMATION;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\VisualStudioProjects\\ReportNG\\ReportNG\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AUTOMATIONConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

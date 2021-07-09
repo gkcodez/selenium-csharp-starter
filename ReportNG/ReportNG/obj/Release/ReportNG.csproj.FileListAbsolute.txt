@@ -1,0 +1,66 @@
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\ApplicationInsights.config
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\csc.exe
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\vbc.exe
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\VBCSCompiler.exe
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\ReportNG.dll.config
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\ReportNG.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\ReportNG.pdb
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.Web.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.ApplicationInsights.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.Web.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.ApplicationInsights.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\obj\Release\ReportNG.csprojResolveAssemblyReference.cache
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\obj\Release\ReportNG.dll
+C:\Users\gopala.panchavarnam\documents\visual studio 2015\Projects\ReportNG\ReportNG\obj\Release\ReportNG.pdb
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\ApplicationInsights.config
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\csc.exe
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\System.Collections.Immutable.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\System.Reflection.Metadata.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\vbc.exe
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\VBCSCompiler.exe
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\roslyn\VBCSCompiler.exe.config
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\ReportNG.dll.config
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\ReportNG.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\ReportNG.pdb
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.Agent.Intercept.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.DependencyCollector.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.Web.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.WindowsServer.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.ApplicationInsights.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.DependencyCollector.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.Web.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.AI.WindowsServer.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.ApplicationInsights.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\VisualStudioProjects\ReportNG\ReportNG\obj\Release\ReportNG.csprojResolveAssemblyReference.cache
+C:\VisualStudioProjects\ReportNG\ReportNG\obj\Release\ReportNG.dll
+C:\VisualStudioProjects\ReportNG\ReportNG\obj\Release\ReportNG.pdb

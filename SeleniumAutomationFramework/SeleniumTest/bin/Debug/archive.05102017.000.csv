@@ -1,0 +1,4 @@
+Date,Time,Level,Message
+05-10-2017-,16:08:45.1140,INFO,Navigating to : http://www.newtours.demoaut.com
+05-10-2017-,16:08:50.6854,INFO,Finding Element : By.Name: userName
+05-10-2017-,16:08:52.8542,INFO,Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text

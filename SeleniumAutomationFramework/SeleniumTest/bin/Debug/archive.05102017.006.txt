@@ -1,0 +1,30 @@
+05-10-2017 16:12:24.8316 INFO Navigating to : http://www.newtours.demoaut.com
+05-10-2017 16:12:28.1754 INFO Finding Element : By.Name: userName
+05-10-2017 16:12:30.4375 INFO Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017 16:12:30.8549 INFO Finding Element : By.Name: password
+05-10-2017 16:12:32.5904 INFO Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017 16:12:33.0633 INFO Finding Element : By.Name: login
+05-10-2017 16:12:34.3900 INFO Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017 16:12:58.0831 INFO Finding Element : By.Name: tripType
+05-10-2017 16:12:58.1886 INFO Clicking Element : Input | By.Name:tripType | By.Type:radio
+05-10-2017 16:12:58.2718 INFO Finding Element : By.Name: passCount
+05-10-2017 16:12:58.3954 INFO Finding Element : By.XPath: .//option[@value = "3"]
+05-10-2017 16:12:58.5047 INFO Clicking Element : Option | By.Text:3 
+05-10-2017 16:12:58.5667 INFO Finding Element : By.Name: fromPort
+05-10-2017 16:12:58.6385 INFO Finding Element : By.XPath: .//option[@value = "Portland"]
+05-10-2017 16:12:58.7393 INFO Clicking Element : Option | By.Text:Portland
+05-10-2017 16:12:58.7963 INFO Finding Element : By.Name: fromMonth
+05-10-2017 16:12:58.9036 INFO Finding Element : By.XPath: .//option[@value = "8"]
+05-10-2017 16:12:59.0095 INFO Clicking Element : Option | By.Text:August
+05-10-2017 16:12:59.0726 INFO Finding Element : By.Name: fromDay
+05-10-2017 16:12:59.1468 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:12:59.2539 INFO Clicking Element : Option | By.Text:16
+05-10-2017 16:12:59.3144 INFO Finding Element : By.Name: toPort
+05-10-2017 16:12:59.3884 INFO Finding Element : By.XPath: .//option[@value = "Paris"]
+05-10-2017 16:12:59.4991 INFO Clicking Element : Option | By.Text:Paris
+05-10-2017 16:12:59.5592 INFO Finding Element : By.Name: toMonth
+05-10-2017 16:12:59.6668 INFO Finding Element : By.XPath: .//option[@value = "9"]
+05-10-2017 16:12:59.7712 INFO Clicking Element : Option | By.Text:September
+05-10-2017 16:12:59.8283 INFO Finding Element : By.Name: toDay
+05-10-2017 16:12:59.8757 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:12:59.9800 INFO Clicking Element : Option | By.Text:16

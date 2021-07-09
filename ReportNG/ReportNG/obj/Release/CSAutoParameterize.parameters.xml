@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="AUTOMATIONConnectionString-Web.config Connection String" description="AUTOMATIONConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=AUTOMATION;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\VisualStudioProjects\\ReportNG\\ReportNG\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AUTOMATIONConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

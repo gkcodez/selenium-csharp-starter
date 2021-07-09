@@ -1,0 +1,8 @@
+Date,Time,Level,Message
+05-10-2017,16:13:00.0723,INFO,Finding Element : By.Name: servClass
+05-10-2017,16:13:00.1840,INFO,Clicking Element : Input | By.Name:servClass | By.Type:radio
+05-10-2017,16:13:00.2649,INFO,Finding Element : By.Name: airline
+05-10-2017,16:13:00.3301,INFO,"Finding Element : By.XPath: .//option[normalize-space(.) = ""Unified Airlines""]"
+05-10-2017,16:13:00.4479,INFO,Clicking Element : Option | By.Text:Unified Airlines
+05-10-2017,16:13:00.5063,INFO,Finding Element : By.Name: findFlights
+05-10-2017,16:13:00.6003,INFO,Clicking Element : Input | By.Name:findFlights | By.Type:image

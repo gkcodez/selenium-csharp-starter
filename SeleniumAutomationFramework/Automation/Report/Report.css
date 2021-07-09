@@ -1,0 +1,567 @@
+﻿body, html {
+	font-family: 'Roboto', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+}
+
+.header {
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	color: white;
+	background-color: darkgrey;
+	text-align: center;
+}
+
+.gridView {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#subtitle {
+	margin-top: -1%;
+}
+
+.summary {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+#detailstitle {
+	margin-left: 1%;
+	color: grey;
+}
+
+#expandtoggle {
+	float: right;
+	background-color: cadetblue;
+	color: #EEE;
+	border: none;
+	padding: 10px;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-bottom: 1%;
+}
+
+.testcase {
+	background-color: cadetblue;
+	color: #EEE;
+	padding: 18px;
+	font-size: inherit;
+	cursor: pointer;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.2s;
+	margin-bottom: 10px;
+}
+
+	.testcase:after {
+		content: "\02795";
+		color: #EEE;
+		float: right;
+		margin-left: 5px;
+	}
+
+	.testcase.active:after {
+		content: "\02796";
+	}
+
+div.panel {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-in;
+	margin-bottom: 18px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-size: 13px;
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+th {
+	background-color: #778899;
+	color: white;
+}
+
+td {
+	font-size: 13px;
+}
+
+.element {
+	color: #666;
+}
+
+.elementvalue {
+	color: #666;
+}
+
+.resultpass {
+	background-color: darkseagreen;
+	color: white;
+}
+
+.resultfail {
+	background-color: indianred;
+	color: white;
+}
+
+.resultinfo {
+	background-color: goldenrod;
+	color: white;
+}
+
+.screenshot img {
+	width: 100%;
+	height: 75px;
+	border: 3px solid white;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+}
+
+.screenshot-target {
+	background: rgba(0, 0, 0, .7);
+	width: 75%;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease-in-out;
+	-moz-transition: opacity .2s ease-in-out;
+	-o-transition: opacity .2s ease-in-out;
+	transition: opacity .2s ease-in-out;
+	overflow: hidden;
+}
+
+	.screenshot-target img {
+		margin: auto;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		max-height: 0%;
+		max-width: 0%;
+		border: 3px solid white;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+		box-sizing: border-box;
+		-webkit-transition: .2s ease-in-out;
+		-moz-transition: .2s ease-in-out;
+		-o-transition: .2s ease-in-out;
+		transition: .2s ease-in-out;
+	}
+
+a.screenshot-close {
+	display: block;
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	background: white;
+	color: black;
+	text-decoration: none;
+	position: fixed;
+	top: -80px;
+	right: 0;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+	a.screenshot-close:before {
+		content: "";
+		display: block;
+		height: 30px;
+		width: 1px;
+		background: black;
+		position: absolute;
+		left: 26px;
+		top: 10px;
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+	}
+
+	a.screenshot-close:after {
+		content: "";
+		display: block;
+		height: 30px;
+		width: 1px;
+		background: black;
+		position: absolute;
+		left: 26px;
+		top: 10px;
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+.screenshot-target:target {
+	opacity: 1;
+	top: 0;
+	bottom: 0;
+}
+
+	.screenshot-target:target img {
+		max-height: 100%;
+		max-width: 100%;
+	}
+
+	.screenshot-target:target a.screenshot-close {
+		top: 0px;
+	}
+
+.ribbon-banner {
+	display: table;
+	max-width: 85%;
+	font-size: 24px;
+	line-height: 1.1;
+	position: relative;
+	background: gray;
+	background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzkyOTI5MiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjODA4MDgwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjOTI5MjkyIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+	background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #929292), color-stop(50%, #808080), color-stop(100%, #929292));
+	background: -moz-linear-gradient(left, #929292, #808080, #929292);
+	background: -webkit-linear-gradient(left, #929292, #808080, #929292);
+	background: linear-gradient(to right, #929292, #808080, #929292);
+	color: #fff;
+	text-align: center;
+	padding: .3em 1em .3em;
+	margin: .75em auto 1.25em;
+	text-shadow: 0 1px 3px #6c6c6c;
+}
+
+	.ribbon-banner:before, .ribbon-banner:after {
+		content: "";
+		position: absolute;
+		display: block;
+		bottom: -0.35em;
+		border-width: .85em;
+		border-style: solid;
+		border-color: gray;
+		z-index: -1;
+	}
+
+	.ribbon-banner:before {
+		left: -1em;
+		border-right-width: 1.5em;
+		border-left-width: 0.5em;
+		border-left-color: transparent;
+	}
+
+	.ribbon-banner:after {
+		right: -1em;
+		border-left-width: 1.5em;
+		border-right-width: 0.5em;
+		border-right-color: transparent;
+	}
+
+	.ribbon-banner span:before,
+	.ribbon-banner span:after {
+		content: "";
+		position: absolute;
+		display: block;
+		border-style: solid;
+		border-color: #616161 transparent transparent transparent;
+		bottom: -0.35em;
+	}
+
+	.ribbon-banner span:before {
+		left: 0;
+		border-width: 0.35em 0 0 1em;
+	}
+
+	.ribbon-banner span:after {
+		right: 0;
+		border-width: 0.35em 1em 0 0;
+	}
+
+div.css_bar_graph {
+	width: 490px;
+	height: 320px;
+	padding: 40px 20px 10px 70px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight: normal;
+	color: #444444;
+	background-color: #ffffff;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	border: 1px solid #d5d5d5;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+	div.css_bar_graph a {
+		color: #444444;
+		text-decoration: none;
+	}
+
+	div.css_bar_graph ul {
+		margin: 0px;
+		padding: 0px;
+		list-style-type: none;
+	}
+
+	div.css_bar_graph li {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	div.css_bar_graph ul.y_axis {
+		width: 50px;
+		position: absolute;
+		top: 40px;
+		left: 10px;
+		text-align: right;
+	}
+
+		div.css_bar_graph ul.y_axis li {
+			width: 100%;
+			height: 49px;
+			float: left;
+			color: #888888;
+			border-top: 1px solid transparent;
+			position: relative;
+			top: -13px;
+		}
+
+	div.css_bar_graph ul.x_axis {
+		width: 100%;
+		height: 50px;
+		position: absolute;
+		bottom: 0px;
+		text-align: center;
+	}
+
+		div.css_bar_graph ul.x_axis li {
+			display: inline;
+			width: 90px;
+			float: left;
+		}
+
+			div.css_bar_graph ul.x_axis li.label1 {
+				position: absolute;
+				left: 10%;
+			}
+
+			div.css_bar_graph ul.x_axis li.label2 {
+				position: absolute;
+				left: 30%;
+			}
+
+			div.css_bar_graph ul.x_axis li.label3 {
+				position: absolute;
+				left: 60%;
+			}
+
+	div.css_bar_graph div.label {
+		width: 100%;
+		height: 50px;
+		float: left;
+		margin-top: 20px;
+		text-align: center;
+	}
+
+		div.css_bar_graph div.label span {
+			font-weight: bold;
+		}
+
+	div.css_bar_graph div.graph {
+		width: 100%;
+		height: 100%;
+		float: left;
+	}
+
+		div.css_bar_graph div.graph ul.grid {
+			width: 100%;
+		}
+
+		div.css_bar_graph div.graph li {
+			width: 100%;
+			height: 49px;
+			float: left;
+			border-top: 1px solid #e5e5e5;
+		}
+
+			div.css_bar_graph div.graph li:nth-child(odd) {
+				width: 100%;
+				height: 49px;
+				float: left;
+				border-top: 1px solid #e5e5e5;
+				background-color: #f8f8f8;
+			}
+
+			div.css_bar_graph div.graph li:nth-child(even) {
+				width: 100%;
+				height: 49px;
+				float: left;
+				border-top: 1px solid #e5e5e5;
+			}
+
+			div.css_bar_graph div.graph li.bottom {
+				border-top: 1px solid #d5d5d5;
+				background-color: #eeeeee;
+				height: 19px;
+			}
+
+			div.css_bar_graph div.graph li.bar {
+				width: 50px;
+				float: left;
+				position: absolute;
+				bottom: 70px;
+				text-align: center;
+				-webkit-transition: all 0.15s ease-in-out;
+				-moz-transition: all 0.15s ease-in-out;
+				-o-transition: all 0.15s ease-in-out;
+				-ms-transition: all 0.15s ease-in-out;
+				transition: all 0.15s ease-in-out;
+			}
+
+				div.css_bar_graph div.graph li.bar div.top {
+					width: 100%;
+					height: 20px;
+					margin-top: -10px;
+					-moz-border-radius: 50px/20px;
+					-webkit-border-radius: 50px 20px;
+					border-radius: 50px/20px;
+					-webkit-transition: all 0.15s ease-in-out;
+					-moz-transition: all 0.15s ease-in-out;
+					-o-transition: all 0.15s ease-in-out;
+					-ms-transition: all 0.15s ease-in-out;
+					transition: all 0.15s ease-in-out;
+				}
+
+				div.css_bar_graph div.graph li.bar div.bottom {
+					width: 100%;
+					height: 20px;
+					position: absolute;
+					bottom: -10px;
+					left: 0px;
+					-moz-border-radius: 50px/20px;
+					-webkit-border-radius: 50px 20px;
+					border-radius: 50px/20px;
+					-webkit-transition: all 0.15s ease-in-out;
+					-moz-transition: all 0.15s ease-in-out;
+					-o-transition: all 0.15s ease-in-out;
+					-ms-transition: all 0.15s ease-in-out;
+					transition: all 0.15s ease-in-out;
+				}
+
+				div.css_bar_graph div.graph li.bar span {
+					position: relative;
+					top: -50px;
+					padding: 3px 5px 3px 5px;
+					z-index: 100;
+					background-color: #eeeeee;
+					border: 1px solid #bebebe;
+					border-radius: 3px;
+					-webkit-border-radius: 3px;
+					-moz-border-radius: 3px;
+					background-image: linear-gradient(top, #ffffff, #f1f1f1 1px, #ebebeb); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#ebebeb'); /* IE5.5 - 7 */
+					-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#ebebeb'); /* IE8 */
+					background: -ms-linear-gradient(top, #ffffff, #f1f1f1 1px, #ebebeb); /* IE9 */
+					background: -moz-linear-gradient(top, #ffffff, #f1f1f1 1px, #ebebeb); /* Firefox */
+					background: -o-linear-gradient(top, #ffffff, #f1f1f1 1px, #ebebeb); /* Opera 11  */
+					background: -webkit-linear-gradient(top, #ffffff, #f1f1f1 1px, #ebebeb); /* Chrome 11  */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(0.05, #f1f1f1), color-stop(1, #ebebeb));
+					text-shadow: 0px 1px 0px rgba(255,255,255,1);
+					box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+					-webkit-box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+					-moz-box-shadow: 0px 1px 0px rgba(0,0,0,0.1);
+					-webkit-transition: all 0.15s ease-in-out;
+					-moz-transition: all 0.15s ease-in-out;
+					-o-transition: all 0.15s ease-in-out;
+					-ms-transition: all 0.15s ease-in-out;
+					transition: all 0.15s ease-in-out;
+				}
+
+			div.css_bar_graph div.graph li.nr_1 {
+				left: 25%;
+			}
+
+			div.css_bar_graph div.graph li.nr_2 {
+				left: 50%;
+			}
+
+			div.css_bar_graph div.graph li.nr_3 {
+				left: 75%;
+			}
+
+			div.css_bar_graph div.graph li.blue {
+				background: #208faf; /* --- IE --- */
+				background: rgba(32,143,175,0.8);
+			}
+
+				div.css_bar_graph div.graph li.blue div.top {
+					background: #72b8cc;
+				}
+
+				div.css_bar_graph div.graph li.blue div.bottom {
+					background: #208faf;
+				}
+
+			div.css_bar_graph div.graph li.green {
+				background: #608d00; /* --- IE --- */
+				background: rgba(96,141,0,0.8);
+			}
+
+				div.css_bar_graph div.graph li.green div.top {
+					background: #a2c656;
+				}
+
+				div.css_bar_graph div.graph li.green div.bottom {
+					background: #608d00;
+				}
+
+			div.css_bar_graph div.graph li.red {
+				background: #d23648; /* --- IE --- */
+				background: rgba(210,54,72,0.8);
+			}
+
+				div.css_bar_graph div.graph li.red div.top {
+					background: #ea828e;
+				}
+
+				div.css_bar_graph div.graph li.red div.bottom {
+					background: #d23648;
+				}
+
+			div.css_bar_graph div.graph li.blue:hover {
+				cursor: pointer;
+				background: #208faf;
+			}
+
+			div.css_bar_graph div.graph li.green:hover {
+				cursor: pointer;
+				background: #608d00;
+			}
+
+			div.css_bar_graph div.graph li.red:hover {
+				cursor: pointer;
+				background: #d23648;
+			}
+
+			div.css_bar_graph div.graph li.bar:hover span {
+				cursor: pointer;
+				top: -60px;
+				padding: 10px;
+				margin: 0px;
+			}

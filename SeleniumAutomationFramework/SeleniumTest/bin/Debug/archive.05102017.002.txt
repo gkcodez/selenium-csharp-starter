@@ -1,0 +1,37 @@
+05-10-2017 16:01:21.5977 INFO Navigating to : http://www.newtours.demoaut.com
+05-10-2017 16:01:23.8476 INFO Finding Element : By.Name: userName
+05-10-2017 16:01:25.8526 INFO Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017 16:01:26.1902 INFO Finding Element : By.Name: password
+05-10-2017 16:01:28.2338 INFO Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017 16:01:28.5384 INFO Finding Element : By.Name: login
+05-10-2017 16:01:30.0497 INFO Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017 16:01:36.7137 INFO Finding Element : By.Name: tripType
+05-10-2017 16:01:36.8344 INFO Clicking Element : Input | By.Name:tripType | By.Type:radio
+05-10-2017 16:01:36.9857 INFO Finding Element : By.Name: passCount
+05-10-2017 16:01:37.1127 INFO Finding Element : By.XPath: .//option[@value = "3"]
+05-10-2017 16:01:37.2220 INFO Clicking Element : Option | By.Text:3 
+05-10-2017 16:01:37.2852 INFO Finding Element : By.Name: fromPort
+05-10-2017 16:01:37.3594 INFO Finding Element : By.XPath: .//option[@value = "Portland"]
+05-10-2017 16:01:37.4617 INFO Clicking Element : Option | By.Text:Portland
+05-10-2017 16:01:37.5174 INFO Finding Element : By.Name: fromMonth
+05-10-2017 16:01:37.6171 INFO Finding Element : By.XPath: .//option[@value = "8"]
+05-10-2017 16:01:37.7183 INFO Clicking Element : Option | By.Text:August
+05-10-2017 16:01:37.7787 INFO Finding Element : By.Name: fromDay
+05-10-2017 16:01:37.8509 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:01:37.9570 INFO Clicking Element : Option | By.Text:16
+05-10-2017 16:01:38.0212 INFO Finding Element : By.Name: toPort
+05-10-2017 16:01:38.0914 INFO Finding Element : By.XPath: .//option[@value = "Paris"]
+05-10-2017 16:01:38.1987 INFO Clicking Element : Option | By.Text:Paris
+05-10-2017 16:01:38.2588 INFO Finding Element : By.Name: toMonth
+05-10-2017 16:01:38.3661 INFO Finding Element : By.XPath: .//option[@value = "9"]
+05-10-2017 16:01:38.4812 INFO Clicking Element : Option | By.Text:September
+05-10-2017 16:01:38.5413 INFO Finding Element : By.Name: toDay
+05-10-2017 16:01:38.5955 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:01:38.7048 INFO Clicking Element : Option | By.Text:16
+05-10-2017 16:01:38.8050 INFO Finding Element : By.Name: servClass
+05-10-2017 16:01:38.9280 INFO Clicking Element : Input | By.Name:servClass | By.Type:radio
+05-10-2017 16:01:39.0359 INFO Finding Element : By.Name: airline
+05-10-2017 16:01:39.1000 INFO Finding Element : By.XPath: .//option[normalize-space(.) = "Unified Airlines"]
+05-10-2017 16:01:39.2394 INFO Clicking Element : Option | By.Text:Unified Airlines
+05-10-2017 16:01:39.5067 INFO Finding Element : By.Name: findFlights
+05-10-2017 16:01:40.0498 INFO Clicking Element : Input | By.Name:findFlights | By.Type:image

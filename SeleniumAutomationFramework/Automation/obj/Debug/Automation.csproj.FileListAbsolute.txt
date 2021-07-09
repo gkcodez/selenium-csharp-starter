@@ -1,0 +1,12 @@
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\NLog.config
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\Automation.dll
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\Automation.pdb
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\NLog.dll
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\WebDriver.dll
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\WebDriver.Support.dll
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\NLog.xml
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\WebDriver.xml
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\bin\Debug\WebDriver.Support.xml
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\obj\Debug\Automation.dll
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\obj\Debug\Automation.pdb
+C:\VisualStudioProjects\SeleniumAutomationFramework\Automation\obj\Debug\Automation.csprojResolveAssemblyReference.cache

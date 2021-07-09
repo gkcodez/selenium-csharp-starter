@@ -1,0 +1,30 @@
+05-10-2017 16:10:28.0013 INFO Finding Element : By.Name: tripType
+05-10-2017 16:10:29.3980 INFO Clicking Element : Input | By.Name:tripType | By.Type:radio
+05-10-2017 16:10:30.5262 INFO Finding Element : By.Name: passCount
+05-10-2017 16:10:32.0577 INFO Finding Element : By.XPath: .//option[@value = "3"]
+05-10-2017 16:10:33.2926 INFO Clicking Element : Option | By.Text:3 
+05-10-2017 16:10:33.3535 INFO Finding Element : By.Name: fromPort
+05-10-2017 16:10:33.4313 INFO Finding Element : By.XPath: .//option[@value = "Portland"]
+05-10-2017 16:10:33.5445 INFO Clicking Element : Option | By.Text:Portland
+05-10-2017 16:10:33.6017 INFO Finding Element : By.Name: fromMonth
+05-10-2017 16:10:33.7104 INFO Finding Element : By.XPath: .//option[@value = "8"]
+05-10-2017 16:10:33.8188 INFO Clicking Element : Option | By.Text:August
+05-10-2017 16:10:33.8767 INFO Finding Element : By.Name: fromDay
+05-10-2017 16:10:33.9489 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:10:34.0535 INFO Clicking Element : Option | By.Text:16
+05-10-2017 16:10:34.1148 INFO Finding Element : By.Name: toPort
+05-10-2017 16:10:34.1870 INFO Finding Element : By.XPath: .//option[@value = "Paris"]
+05-10-2017 16:10:34.2930 INFO Clicking Element : Option | By.Text:Paris
+05-10-2017 16:10:34.3552 INFO Finding Element : By.Name: toMonth
+05-10-2017 16:10:34.4594 INFO Finding Element : By.XPath: .//option[@value = "9"]
+05-10-2017 16:10:34.5615 INFO Clicking Element : Option | By.Text:September
+05-10-2017 16:10:34.6152 INFO Finding Element : By.Name: toDay
+05-10-2017 16:10:34.6632 INFO Finding Element : By.XPath: .//option[@value = "16"]
+05-10-2017 16:10:34.7705 INFO Clicking Element : Option | By.Text:16
+05-10-2017 16:10:34.8566 INFO Finding Element : By.Name: servClass
+05-10-2017 16:10:34.9498 INFO Clicking Element : Input | By.Name:servClass | By.Type:radio
+05-10-2017 16:10:35.0337 INFO Finding Element : By.Name: airline
+05-10-2017 16:10:35.1009 INFO Finding Element : By.XPath: .//option[normalize-space(.) = "Unified Airlines"]
+05-10-2017 16:10:35.2078 INFO Clicking Element : Option | By.Text:Unified Airlines
+05-10-2017 16:10:35.2648 INFO Finding Element : By.Name: findFlights
+05-10-2017 16:10:35.3537 INFO Clicking Element : Input | By.Name:findFlights | By.Type:image

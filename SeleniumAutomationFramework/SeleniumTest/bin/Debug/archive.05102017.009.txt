@@ -1,0 +1,7 @@
+05-10-2017 16:36:14.1366 INFO Navigating to : http://www.newtours.demoaut.com
+05-10-2017 16:36:17.1158 INFO Finding Element : By.Name: userName
+05-10-2017 16:36:19.1109 INFO Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017 16:36:19.4665 INFO Finding Element : By.Name: password
+05-10-2017 16:36:21.5154 INFO Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017 16:36:21.8317 INFO Finding Element : By.Name: login
+05-10-2017 16:36:23.1196 INFO Clicking Element : Input | By.Name:login | By.Type:image

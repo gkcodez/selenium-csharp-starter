@@ -1,0 +1,45 @@
+05-10-2017	14:24:13.5232	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	14:45:14.0275	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	14:52:23.8536	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	14:52:26.5942	INFO	Finding Element : By.Name: userName
+05-10-2017	14:52:28.7726	INFO	Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017	14:52:29.2120	INFO	Finding Element : By.Name: password
+05-10-2017	14:52:31.1735	INFO	Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017	14:52:31.5355	INFO	Finding Element : By.Name: login
+05-10-2017	14:52:32.8848	INFO	Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017	14:55:42.7777	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	14:55:44.9581	INFO	Finding Element : By.Name: userName
+05-10-2017	14:55:46.9564	INFO	Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017	14:55:47.3229	INFO	Finding Element : By.Name: password
+05-10-2017	14:55:49.2871	INFO	Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017	14:55:49.6099	INFO	Finding Element : By.Name: login
+05-10-2017	14:55:51.0690	INFO	Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017	14:58:52.3353	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	14:58:57.7416	INFO	Finding Element : By.Name: userName
+05-10-2017	14:58:59.8647	INFO	Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017	14:59:00.2303	INFO	Finding Element : By.Name: password
+05-10-2017	14:59:02.1274	INFO	Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017	14:59:02.4975	INFO	Finding Element : By.Name: login
+05-10-2017	14:59:02.9190	INFO	Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017	15:17:44.9037	INFO	Navigating to : http://www.newtours.demoaut.com
+05-10-2017	15:17:47.8853	INFO	Finding Element : By.Name: userName
+05-10-2017	15:17:48.2219	INFO	Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017	15:17:48.2580	INFO	Finding Element : By.Name: password
+05-10-2017	15:17:48.4271	INFO	Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017	15:17:48.5079	INFO	Finding Element : By.Name: login
+05-10-2017	15:17:48.6260	INFO	Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017,15:34:48.8596,INFO,Navigating to : http://www.newtours.demoaut.com
+05-10-2017,15:34:52.3211,INFO,Finding Element : By.Name: userName
+05-10-2017,15:34:54.4005,INFO,Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017,15:34:54.8642,INFO,Finding Element : By.Name: password
+05-10-2017,15:34:55.5557,INFO,Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017,15:34:55.5948,INFO,Finding Element : By.Name: login
+05-10-2017,15:34:55.7149,INFO,Clicking Element : Input | By.Name:login | By.Type:image
+05-10-2017,15:39:05.4252,INFO,Navigating to : http://www.newtours.demoaut.com
+05-10-2017,15:47:36.4076,INFO,Navigating to : http://www.newtours.demoaut.com
+05-10-2017,15:47:39.5108,INFO,Finding Element : By.Name: userName
+05-10-2017,15:47:41.4561,INFO,Value Changed: gopalakrishnanpv On Element : Input | By.Name:userName | By.Type:text
+05-10-2017,15:47:41.8258,INFO,Finding Element : By.Name: password
+05-10-2017,15:47:43.8961,INFO,Value Changed: krishnaPV93 On Element : Input | By.Name:password | By.Type:password
+05-10-2017,15:47:44.3539,INFO,Finding Element : By.Name: login
+05-10-2017,15:47:45.7694,INFO,Clicking Element : Input | By.Name:login | By.Type:image

@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="ReportNG.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<title>SELENIUM AUTOMATION REPORTING FRAMEWORK</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<%--	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">--%>
+
+	<link rel="stylesheet" runat="server" media="screen" href="~/css/Report.css" />
+
+	<!-- Latest compiled and minified JavaScript -->
+	<%--	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>--%>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<div id="banner">
+			<div id="bannerlogo">
+				<asp:Image ID="logo" ImageUrl="~/images/automation.png" runat="server" Width="104px" />
+			</div>
+			<div id="bannertitle">
+				<h1 id="bannermaintitle">NG REPORTS</h1>
+				<h4 id="bannersubtitle">Automated Selenium Reporting Framework</h4>
+			</div>
+			<div id="bannerversion">
+				<h3 id="version">VERSION - 1.0</h3>
+			</div>
+		</div>
+		<div id="container">
+			<asp:ContentPlaceHolder ID="MainContent" runat="server">
+			</asp:ContentPlaceHolder>
+		</div>
+	</form>
+</body>
+</html>
